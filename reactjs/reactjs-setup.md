@@ -32,15 +32,18 @@ in **webpack.config.js**
 ```js
 module.exports = {
   entry: './src/index.js',
+
   output: {
     path: __dirname + '/public/',
     filename: 'bundle.js'
   },
+
   devServer: {
     inline: true,
     port: 7777,
     contentBase: __dirname + '/public/'
   },
+
   module: {
     loaders: [
       {
@@ -71,15 +74,16 @@ in **public/index.html**
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>React App</title>
-   </head>
-   <body>
-      <div id="root"></div>
-      <script src="bundle.js"></script>
-   </body>
+<head>
+  <meta charset="UTF-8">
+  <title>React App</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="bundle.js"></script>
+</body>
 </html>
+
 ```
 
 
@@ -92,7 +96,7 @@ import React from 'react';
 
 class App extends React.Component {
   render(){
-    return(
+    return (
       <h1>Hello, React!</h1>
     );
   }
@@ -105,7 +109,7 @@ in **src/index.js**
 
 ```js
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import App from './components/App';
 
 const rootElement = document.getElementById('root');
