@@ -10,7 +10,7 @@
 
 ## How to run in local
 
-[Docker](https://www.docker.com)와 [gollum](https://github.com/gollum/gollum)을 사용한다. 자세한 내용은 [여기](https://github.com/AWEEKJ/TIL/docker/gollum-via-docker.md)에.
+[Docker](https://www.docker.com)와 [gollum](https://github.com/gollum/gollum)을 사용한다. 자세한 내용은 [여기](https://github.com/AWEEKJ/TIL/blob/master/docker/gollum-via-docker.md)에.
 
 
 ## Other TIL Collections
