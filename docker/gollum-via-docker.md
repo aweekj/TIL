@@ -28,7 +28,7 @@ $ touch Dockerfile
 $ open Dockerfile
 ```
 
-다음 내용을 복사-붙여넣기 한다.
+Dockerfile에 다음 내용을 복사-붙여넣기 한다.
 
 ```
 FROM ruby:latest
@@ -42,6 +42,7 @@ EXPOSE 80
 ```
 
 이 파일은 Docker 에 다음 사항들을 알려준다.
+
 1. [official Ruby repo on Docker Hub](https://hub.docker.com/_/ruby/)의 이미지를 기준으로 함.
 2. developer tools, gollum, dipendencies를 설치.
 3. Docker container의 작업 디렉토리를 변경하고, container 안의 wiki 폴더에 external symlink 를 제공.
@@ -52,7 +53,7 @@ EXPOSE 80
 ```bash
 $ docker build -t gollum .
 ```
-마지막의 . 을 빼먹지 않도록 한다.
+*주의* - 마지막의 . 을 빼먹지 않도록 한다.
 
 ## Running the Docker Container
 
@@ -71,7 +72,6 @@ $ docker run -v /`pwd`:/wiki -p 4567:80 gollum
 
 (Commit 한 문서만 보인다.)
 
----
 ## 참고링크
 * [Gollum via Docker](https://github.com/gollum/gollum/wiki/Gollum-via-Docker)
 * [Build your own image - Docker Official Document]( https://docs.docker.com/engine/getstarted/step_four/)
