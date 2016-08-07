@@ -1,6 +1,28 @@
+
 # TIL
 > Today I Learned
+
 오늘 배운 내용을 간결하게 정리하여 모아둔다.
+
+---
+
+## Categories
+* [Docker](#docker)
+* [Jekyll](#jekyll)
+* [Python](#python)
+* [Reactjs](#reactjs)
+## Docker
+* [Docker Cheatsheet.md](docker/docker-cheatsheet.md)
+* [Gollum Via Docker.md](docker/gollum-via-docker.md)
+* [Jekyll With Docker.md](docker/jekyll-with-docker.md)
+## Jekyll
+* [Jekyll With Git Submodule.md](jekyll/jekyll-with-git-submodule.md)
+## Python
+* [Python Virtualenv.md](python/python-virtualenv.md)
+## Reactjs
+* [Reactjs Setup.md](reactjs/reactjs-setup.md)
+
+---
 
 ## Rules
 
@@ -8,21 +30,32 @@
 * 문서는 GFM(Github Flavored Markdown) 을 따른다.
 
 
-## How to run in local
+## Usage
 
-[Docker](https://www.docker.com)와 [gollum](https://github.com/gollum/gollum)을 사용한다. 자세한 내용은 [여기](https://github.com/AWEEKJ/TIL/blob/master/docker/gollum-via-docker.md)에.
+### Generate `README.md`
+```
+$ python3 build.py
+```
+
+### Run in Local
+
+Use [Docker](https://www.docker.com) and [Gollum](https://github.com/gollum/gollum). Details are [here](https://github.com/AWEEKJ/TIL/blob/master/docker/gollum-via-docker.md).
 
 
 ## Other TIL Collections
 Inspired by
 
-* [thoughtbot](https://github.com/thoughtbot/til)
-* [jbranchaud](https://github.com/jbranchaud/til)
-* [milooy](https://github.com/milooy/TIL)
-* [channprj](https://github.com/channprj/TIL)
+* [@thoughtbot](https://github.com/thoughtbot/til)
+* [@jbranchaud](https://github.com/jbranchaud/til)
+* [@milooy](https://github.com/milooy/TIL)
+* [@channprj](https://github.com/channprj/TIL)
 
 ## License
 
 © 2016 Hanju Jo
 
 This repository is licensed under the MIT license. See `LICENSE` for details.
+etails.
+tails.
+ls.
+nsed under the MIT license. See `LICENSE` for details.
