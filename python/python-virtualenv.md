@@ -5,7 +5,7 @@ $ [sudo] pip install virtualenv
 ```
 
 ```bash
-$ virtualenv [--python=python3.3] venv
+$ virtualenv [--python=python3.3] myvenv
 ```
 
 ```bash
