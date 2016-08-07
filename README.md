@@ -11,14 +11,18 @@
 * [Jekyll](#jekyll)
 * [Python](#python)
 * [Reactjs](#reactjs)
+
 ## Docker
 * [Docker Cheatsheet.md](docker/docker-cheatsheet.md)
+* [Docker For Jekyll.md](docker/docker-for-jekyll.md)
 * [Gollum Via Docker.md](docker/gollum-via-docker.md)
-* [Jekyll With Docker.md](docker/jekyll-with-docker.md)
+
 ## Jekyll
 * [Jekyll With Git Submodule.md](jekyll/jekyll-with-git-submodule.md)
+
 ## Python
 * [Python Virtualenv.md](python/python-virtualenv.md)
+
 ## Reactjs
 * [Reactjs Setup.md](reactjs/reactjs-setup.md)
 
@@ -55,7 +59,7 @@ Inspired by
 © 2016 Hanju Jo
 
 This repository is licensed under the MIT license. See `LICENSE` for details.
-etails.
+ails.
 tails.
 ls.
 nsed under the MIT license. See `LICENSE` for details.

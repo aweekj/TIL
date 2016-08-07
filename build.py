@@ -88,7 +88,7 @@ for directory in directories:
     readme.write("* [" + directory.capitalize() + "](#" + directory + ")\n")
 
 for directory in directories:
-    readme.write("## " + directory.capitalize() + "\n")
+    readme.write("\n## " + directory.capitalize() + "\n")
     sub_files = glob.glob(directory + '/*.md')
     for sub_file in sub_files:
         readme.write("* [" + make_pretty_name(os.path.basename(sub_file)) + "](" + sub_file + ")\n")
