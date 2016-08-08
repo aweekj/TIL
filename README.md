@@ -24,7 +24,6 @@
 * [Git Cheat Sheet.md](git/git-cheat-sheet.md)
 
 ## Jekyll
-* [Jekyll With Git Submodule.md](jekyll/jekyll-with-git-submodule.md)
 * [Jekyll With Google Analytics.md](jekyll/jekyll-with-google-analytics.md)
 
 ## Python
@@ -66,3 +65,4 @@ Inspired by
 © 2016 Hanju Jo
 
 This repository is licensed under the MIT license. See `LICENSE` for details.
+ository is licensed under the MIT license. See `LICENSE` for details.
