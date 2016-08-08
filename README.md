@@ -65,4 +65,3 @@ Inspired by
 © 2016 Hanju Jo
 
 This repository is licensed under the MIT license. See `LICENSE` for details.
-ository is licensed under the MIT license. See `LICENSE` for details.
