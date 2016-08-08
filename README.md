@@ -8,17 +8,24 @@
 
 ## Categories
 * [Docker](#docker)
+* [Git](#git)
 * [Jekyll](#jekyll)
 * [Python](#python)
 * [Reactjs](#reactjs)
+
+---
 
 ## Docker
 * [Docker Cheatsheet.md](docker/docker-cheatsheet.md)
 * [Docker For Jekyll.md](docker/docker-for-jekyll.md)
 * [Gollum Via Docker.md](docker/gollum-via-docker.md)
 
+## Git
+* [Git Cheat Sheet.md](git/git-cheat-sheet.md)
+
 ## Jekyll
 * [Jekyll With Git Submodule.md](jekyll/jekyll-with-git-submodule.md)
+* [Jekyll With Google Analytics.md](jekyll/jekyll-with-google-analytics.md)
 
 ## Python
 * [Python Virtualenv.md](python/python-virtualenv.md)
@@ -59,7 +66,3 @@ Inspired by
 © 2016 Hanju Jo
 
 This repository is licensed under the MIT license. See `LICENSE` for details.
-ails.
-tails.
-ls.
-nsed under the MIT license. See `LICENSE` for details.

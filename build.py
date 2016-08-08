@@ -5,10 +5,6 @@ import glob
 import os.path
 
 
-def make_pretty_name(name):
-    pretty_name = re.sub(r'-', ' ', name)
-    return string.capwords(pretty_name)
-
 header = """
 # TIL
 > Today I Learned
@@ -55,20 +51,13 @@ Inspired by
 This repository is licensed under the MIT license. See `LICENSE` for details.
 """
 
-"""
-readme = open('README.md', 'r+')
-
-readme.write(header)
-
-readme.write("## Categories\n")
-
-readme.write(footer)
-
-readme.close
-"""
-
-
 ###################################
+
+
+
+def make_pretty_name(name):
+    pretty_name = re.sub(r'-', ' ', name)
+    return string.capwords(pretty_name)
 
 
 readme = open('README.md', 'r+')
@@ -86,6 +75,8 @@ directories.remove('drafts')
 
 for directory in directories:
     readme.write("* [" + directory.capitalize() + "](#" + directory + ")\n")
+
+readme.write("\n---\n")
 
 for directory in directories:
     readme.write("\n## " + directory.capitalize() + "\n")
