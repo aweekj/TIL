@@ -7,7 +7,7 @@
 
 ## Install
 
-1. Between a `{% if page.comments %}` and a `{% endif %}` tag, add the [Universal Embed Code](https://disqus.com/admin/universalcode/) in the appropriate template where you want.
+Between a `{% if page.comments %}` and a `{% endif %}` tag, add the [Universal Embed Code](https://disqus.com/admin/universalcode/) in the appropriate template where you want.
 
 ```
 {% if page.comments %}
@@ -35,14 +35,14 @@ s.setAttribute('data-timestamp', +new Date());
 
 ```
 
-2. Add Disqus Id to `_config.yml`
+Add Disqus Id to `_config.yml`
 ```yml
 disqus:
   id: "YOUR_DISQUS_ID"
 ```
 
 
-3. Add `comments` variable to the YAML frontmatter and set `true`. Comments can be disabled per-page by setting `comments: false` or by not including the comments option at all.
+Add `comments` variable to the YAML frontmatter and set `true`. Comments can be disabled per-page by setting `comments: false` or by not including the comments option at all.
 
 ```md
 ---
