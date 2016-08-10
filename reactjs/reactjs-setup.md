@@ -8,7 +8,7 @@ npm install -g babel webpack webpack-dev-server
 ## 2. Create project folder
 
 ```bash
-mkdir react-tutorial && cd react-tutorial
+mkdir <project-folder> && cd <project-folder>
 npm init
 ```
 
