@@ -10,8 +10,10 @@
 * [Docker](#docker)
 * [Git](#git)
 * [Jekyll](#jekyll)
+* [Mongodb](#mongodb)
 * [Python](#python)
 * [Reactjs](#reactjs)
+* [Vim](#vim)
 
 ---
 
@@ -27,11 +29,18 @@
 * [Add Disqus To Jekyll.md](jekyll/add-disqus-to-jekyll.md)
 * [Jekyll With Google Analytics.md](jekyll/jekyll-with-google-analytics.md)
 
+## Mongodb
+* [Mongodb Setup.md](mongodb/mongodb-setup.md)
+
 ## Python
 * [Python Virtualenv.md](python/python-virtualenv.md)
 
 ## Reactjs
 * [Reactjs Setup.md](reactjs/reactjs-setup.md)
+
+## Vim
+* [Vim Cheatsheet.md](vim/vim-cheatsheet.md)
+* [Vim Setup.md](vim/vim-setup.md)
 
 ---
 
