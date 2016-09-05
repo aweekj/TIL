@@ -13,6 +13,7 @@
 * [Mongodb](#mongodb)
 * [Python](#python)
 * [Reactjs](#reactjs)
+* [Uncategorized](#uncategorized)
 * [Vim](#vim)
 
 ---
@@ -33,10 +34,14 @@
 * [Mongodb Setup.md](mongodb/mongodb-setup.md)
 
 ## Python
+* [Django Setup.md](python/django-setup.md)
 * [Python Virtualenv.md](python/python-virtualenv.md)
 
 ## Reactjs
 * [Reactjs Setup.md](reactjs/reactjs-setup.md)
+
+## Uncategorized
+* [Dotfiles.md](uncategorized/dotfiles.md)
 
 ## Vim
 * [Vim Setup.md](vim/vim-setup.md)
@@ -52,7 +57,6 @@
 ## Usage
 
 ### Generate `README.md`
-
 ```
 $ python3 build.py
 ```
