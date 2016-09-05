@@ -50,11 +50,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'mattn/emmet-vim'
-Plugin 'Shougo/neocomplcache.vim'
 Plugin 'valloric/youcompleteme'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'bling/vim-airline'
-Plugin 'suan/vim-instant-markdown'
 ```
 
 ## To Study Vim

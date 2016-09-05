@@ -39,7 +39,6 @@
 * [Reactjs Setup.md](reactjs/reactjs-setup.md)
 
 ## Vim
-* [Vim Cheatsheet.md](vim/vim-cheatsheet.md)
 * [Vim Setup.md](vim/vim-setup.md)
 
 ---
@@ -53,6 +52,7 @@
 ## Usage
 
 ### Generate `README.md`
+
 ```
 $ python3 build.py
 ```
