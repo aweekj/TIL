@@ -1,6 +1,4 @@
-# Vim Setup
-
-> Use Vundle!!!
+# Vim Plugin Manager - Vundle
 
 ## Installation
 

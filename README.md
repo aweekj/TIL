@@ -44,7 +44,9 @@
 * [Dotfiles.md](uncategorized/dotfiles.md)
 
 ## Vim
-* [Vim Setup.md](vim/vim-setup.md)
+* [Plugin Manager Vim Plug.md](vim/plugin-manager-vim-plug.md)
+* [Plugin Manager Vundle.md](vim/plugin-manager-vundle.md)
+* [Plugin Youcompleteme.md](vim/plugin-youcompleteme.md)
 
 ---
 
