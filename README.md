@@ -25,6 +25,7 @@
 
 ## Git
 * [Git Cheat Sheet.md](git/git-cheat-sheet.md)
+* [Steps After Fork.md](git/steps-after-fork.md)
 
 ## Jekyll
 * [Add Disqus To Jekyll.md](jekyll/add-disqus-to-jekyll.md)
