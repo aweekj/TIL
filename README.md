@@ -35,6 +35,7 @@
 * [Mongodb Setup.md](mongodb/mongodb-setup.md)
 
 ## Python
+* [Django Bluebook.md](python/django-bluebook.md)
 * [Django Setup.md](python/django-setup.md)
 * [Python React Setup.md](python/python-react-setup.md)
 * [Python Virtualenv.md](python/python-virtualenv.md)
