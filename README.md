@@ -37,6 +37,7 @@
 ## Python
 * [Django Bluebook.md](python/django-bluebook.md)
 * [Django Setup.md](python/django-setup.md)
+* [Effective Python.md](python/effective-python.md)
 * [Python React Setup.md](python/python-react-setup.md)
 * [Python Virtualenv.md](python/python-virtualenv.md)
 
