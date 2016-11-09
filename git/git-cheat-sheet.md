@@ -34,7 +34,7 @@ $ git branch
 $ git branch [BRANCH_NAME]
 $ git checkout [-b] [BRANCH_NAME]
 $ git merge [BRANCH_NAME]
-$ git branch -d [BRANCH_NAME]
+$ git branch -d [BRANCH_NAME] # delete local branch
 ```
 
 ## Undoing things
@@ -68,6 +68,20 @@ $ git fetch [BOOKMARK]
 $ git merge [BOOKMARK]/[BRANCH]
 $ git push [ALIAS] [BRANCH]
 $ git pull
+```
+
+## Pull from remote branch
+
+```bash
+$ git checkout -b [LOCAL_BRANCH_NAME] origin/[REMOTE_BRANCH_NAME]
+$ git checkout -t origin/[REMOTE_BRANCH_NAME]
+```
+
+## Reset the resets
+
+```bash
+$ git reflog
+$ git reset --hare HEAH@{1}
 ```
 
 
