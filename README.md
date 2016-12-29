@@ -24,6 +24,8 @@
 
 ## Docker
 * [Docker Cheatsheet.md](docker/docker-cheatsheet.md)
+* [Docker For Django (local).md](docker/docker-for-django-(local).md)
+* [Docker For Django (server).md](docker/docker-for-django-(server).md)
 * [Docker For Jekyll.md](docker/docker-for-jekyll.md)
 * [Gollum Via Docker.md](docker/gollum-via-docker.md)
 
