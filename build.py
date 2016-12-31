@@ -3,6 +3,7 @@ import re
 import string
 import glob
 import os.path
+import io
 
 
 header = """
@@ -54,13 +55,12 @@ This repository is licensed under the MIT license. See `LICENSE` for details.
 ###################################
 
 
-
 def make_pretty_name(name):
     pretty_name = re.sub(r'-', ' ', name)
     return string.capwords(pretty_name)
 
 
-readme = open('README.md', 'r+')
+readme = io.open('README.md', 'r+', encoding='utf-8')
 readme.write(header)
 readme.write("## Categories\n")
 
