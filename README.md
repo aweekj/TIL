@@ -11,6 +11,7 @@
 * [Docker](#docker)
 * [Git](#git)
 * [Jekyll](#jekyll)
+* [Machinelearning](#machinelearning)
 * [Mongodb](#mongodb)
 * [Python](#python)
 * [Reactjs](#reactjs)
@@ -36,6 +37,9 @@
 ## Jekyll
 * [Add Disqus To Jekyll.md](jekyll/add-disqus-to-jekyll.md)
 * [Jekyll With Google Analytics.md](jekyll/jekyll-with-google-analytics.md)
+
+## Machinelearning
+* [Ml Study Notes.md](machinelearning/ml-study-notes.md)
 
 ## Mongodb
 * [Mongodb Setup.md](mongodb/mongodb-setup.md)
