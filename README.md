@@ -48,6 +48,7 @@
 * [Django Bluebook.md](python/django-bluebook.md)
 * [Django Setup.md](python/django-setup.md)
 * [Effective Python.md](python/effective-python.md)
+* [Fundamental Python.md](python/fundamental-python.md)
 * [Python React Setup.md](python/python-react-setup.md)
 * [Python Tips.md](python/python-tips.md)
 * [Python Virtualenv.md](python/python-virtualenv.md)
@@ -57,6 +58,7 @@
 
 ## Uncategorized
 * [Dotfiles.md](uncategorized/dotfiles.md)
+* [Postgresql On Ubuntu.md](uncategorized/postgresql-on-ubuntu.md)
 
 ## Vim
 * [Plugin Manager Vim Plug.md](vim/plugin-manager-vim-plug.md)

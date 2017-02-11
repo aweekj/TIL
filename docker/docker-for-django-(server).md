@@ -13,6 +13,7 @@
 
 3. 접속
 * 인스턴스 목록에서 우클릭 - Connect - 시키는 대로 할 것
+* `cd .ssh`
 
 ## Docker
 
@@ -64,8 +65,8 @@ hello-world         latest              c54a2cc56cbb        5 months ago        
 1. 설치
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install git python3-pip python3-venv
+sudo apt-get update
+sudo apt-get install python-pip python-dev libpq-dev postgresql postgresql-contrib
 ```
 
 2. Git clone
@@ -79,6 +80,6 @@ $ sudo apt-get install git python3-pip python3-venv
 ## 더 읽어볼 것
 - [Docker - Quickstart : Compose and Django](https://docs.docker.com/compose/django/)
 - [How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04
-](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
+  ](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
 - [Dockerizing a Python Django Web Application](https://semaphoreci.com/community/tutorials/dockerizing-a-python-django-web-application)
 - [Packaging Django applications into Docker container images](http://michal.karzynski.pl/blog/2015/04/19/packaging-django-applications-as-docker-container-images/)
