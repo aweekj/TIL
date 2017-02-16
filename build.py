@@ -21,13 +21,14 @@ footer = """
 
 ## Rules
 
-* 폴더와 파일명은 영문 소문자로 쓴다.
-* 문서는 GFM(Github Flavored Markdown) 을 따른다.
+* Directory and file would be lowercase.
+* Follow GFM(Github Flavored Markdown)
 
 
 ## Usage
 
 ### Generate `README.md`
+
 ```
 $ python3 build.py
 ```

@@ -8,11 +8,12 @@
 
 ## Categories
 * [C++](#c++)
+* [Database](#database)
+* [Django](#django)
 * [Docker](#docker)
 * [Git](#git)
 * [Jekyll](#jekyll)
-* [Machinelearning](#machinelearning)
-* [Mongodb](#mongodb)
+* [Ml](#ml)
 * [Python](#python)
 * [Reactjs](#reactjs)
 * [Uncategorized](#uncategorized)
@@ -23,10 +24,17 @@
 ## C++
 * [C++ Basic.md](c++/c++-basic.md)
 
+## Database
+* [Mongodb Setup.md](database/mongodb-setup.md)
+* [Postgresql On Ubuntu.md](database/postgresql-on-ubuntu.md)
+
+## Django
+* [Django Bluebook.md](django/django-bluebook.md)
+* [Django Setup.md](django/django-setup.md)
+* [Django With Postgresql On Aws Ec2.md](django/django-with-postgresql-on-aws-ec2.md)
+
 ## Docker
 * [Docker Cheatsheet.md](docker/docker-cheatsheet.md)
-* [Docker For Django (local).md](docker/docker-for-django-(local).md)
-* [Docker For Django (server).md](docker/docker-for-django-(server).md)
 * [Docker For Jekyll.md](docker/docker-for-jekyll.md)
 * [Gollum Via Docker.md](docker/gollum-via-docker.md)
 
@@ -38,15 +46,10 @@
 * [Add Disqus To Jekyll.md](jekyll/add-disqus-to-jekyll.md)
 * [Jekyll With Google Analytics.md](jekyll/jekyll-with-google-analytics.md)
 
-## Machinelearning
-* [Ml Study Notes.md](machinelearning/ml-study-notes.md)
-
-## Mongodb
-* [Mongodb Setup.md](mongodb/mongodb-setup.md)
+## Ml
+* [Ml Study Notes.md](ml/ml-study-notes.md)
 
 ## Python
-* [Django Bluebook.md](python/django-bluebook.md)
-* [Django Setup.md](python/django-setup.md)
 * [Effective Python.md](python/effective-python.md)
 * [Fundamental Python.md](python/fundamental-python.md)
 * [Python React Setup.md](python/python-react-setup.md)
@@ -58,7 +61,6 @@
 
 ## Uncategorized
 * [Dotfiles.md](uncategorized/dotfiles.md)
-* [Postgresql On Ubuntu.md](uncategorized/postgresql-on-ubuntu.md)
 
 ## Vim
 * [Plugin Manager Vim Plug.md](vim/plugin-manager-vim-plug.md)
@@ -69,13 +71,14 @@
 
 ## Rules
 
-* 폴더와 파일명은 영문 소문자로 쓴다.
-* 문서는 GFM(Github Flavored Markdown) 을 따른다.
+* Directory and file would be lowercase.
+* Follow GFM(Github Flavored Markdown)
 
 
 ## Usage
 
 ### Generate `README.md`
+
 ```
 $ python3 build.py
 ```
