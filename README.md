@@ -8,6 +8,7 @@
 
 ## Categories
 * [C++](#c++)
+* [Data-visualization](#data-visualization)
 * [Database](#database)
 * [Django](#django)
 * [Docker](#docker)
@@ -24,6 +25,8 @@
 ## C++
 * [C++ Basic.md](c++/c++-basic.md)
 
+## Data-visualization
+
 ## Database
 * [Mongodb Setup.md](database/mongodb-setup.md)
 * [Postgresql On Ubuntu.md](database/postgresql-on-ubuntu.md)
@@ -32,6 +35,7 @@
 * [Django Bluebook.md](django/django-bluebook.md)
 * [Django Setup.md](django/django-setup.md)
 * [Django With Postgresql On Aws Ec2.md](django/django-with-postgresql-on-aws-ec2.md)
+* [Test Driven Development With Python.md](django/test-driven-development-with-python.md)
 
 ## Docker
 * [Docker Cheatsheet.md](docker/docker-cheatsheet.md)
