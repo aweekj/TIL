@@ -70,12 +70,43 @@ $ git push [ALIAS] [BRANCH]
 $ git pull
 ```
 
-## Pull from remote branch
+
+
+## Remote branch
+
+### Show remote branches
 
 ```bash
+$ git branch -r
+# or
+$ git remote show origin
+```
+
+### Push local branch to remote branch
+
+```bash
+$ git push origin [REMOTE_BRANCH_NAME]
+```
+
+### Pull from remote branch
+
+```bash
+$ git checkout [REMOTE_BRANCH_NAME]
+# or
 $ git checkout -b [LOCAL_BRANCH_NAME] origin/[REMOTE_BRANCH_NAME]
+# or
 $ git checkout -t origin/[REMOTE_BRANCH_NAME]
 ```
+
+### Delete remote branch
+
+```bash
+$ git push origin :[REMOTE_BRANCH_NAME]
+```
+
+
+
+
 
 ## Reset the resets
 
@@ -83,7 +114,6 @@ $ git checkout -t origin/[REMOTE_BRANCH_NAME]
 $ git reflog
 $ git reset --hare HEAH@{1}
 ```
-
 
 ---
 ## Refer to
