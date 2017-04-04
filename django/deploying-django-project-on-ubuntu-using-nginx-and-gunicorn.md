@@ -157,7 +157,7 @@ zsh와 oh-my-zsh를 사용한다면 다음을 입력하자.
 
 ```bash
 $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh # oh-my-zsh 설치
-$ chsh -s /bin/zsh # 기본 셸을 zsh로 변경
+$ chsh -s $(which zsh) # 기본 셸을 zsh로 변경
 ```
 
 

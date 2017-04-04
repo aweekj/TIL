@@ -32,6 +32,7 @@
 * [Postgresql On Ubuntu.md](database/postgresql-on-ubuntu.md)
 
 ## Django
+* [Deploying Django Project On Ubuntu Using Nginx And Gunicorn.md](django/deploying-django-project-on-ubuntu-using-nginx-and-gunicorn.md)
 * [Django Bluebook.md](django/django-bluebook.md)
 * [Django Setup.md](django/django-setup.md)
 * [Django With Postgresql On Aws Ec2.md](django/django-with-postgresql-on-aws-ec2.md)
