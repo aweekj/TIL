@@ -26,6 +26,7 @@
 * [C++ Basic.md](c++/c++-basic.md)
 
 ## Data-visualization
+* [D3.js Tutorial.md](data-visualization/d3.js-tutorial.md)
 
 ## Database
 * [Mongodb Setup.md](database/mongodb-setup.md)
