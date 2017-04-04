@@ -132,3 +132,11 @@ c
 
 
 
+#### [http.server](https://docs.python.org/3.6/library/http.server.html?highlight=http.server#http.server.SimpleHTTPRequestHandler)
+
+> 원하는 경로에서 이 명령어를 실행시키면 웹서버로 제공된다.
+
+```bash
+$ python3 -m http.server 8000
+```
+
