@@ -10,6 +10,7 @@
 * [C++](#c++)
 * [Data-visualization](#data-visualization)
 * [Database](#database)
+* [Design-patterns](#design-patterns)
 * [Django](#django)
 * [Docker](#docker)
 * [Git](#git)
@@ -31,6 +32,12 @@
 ## Database
 * [Mongodb Setup.md](database/mongodb-setup.md)
 * [Postgresql On Ubuntu.md](database/postgresql-on-ubuntu.md)
+
+## Design-patterns
+* [Adapter.md](design-patterns/adapter.md)
+* [Decorator.md](design-patterns/decorator.md)
+* [Delegation.md](design-patterns/delegation.md)
+* [Readme.md](design-patterns/README.md)
 
 ## Django
 * [Deploying Django Project On Ubuntu Using Nginx And Gunicorn.md](django/deploying-django-project-on-ubuntu-using-nginx-and-gunicorn.md)
