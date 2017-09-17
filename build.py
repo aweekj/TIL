@@ -72,7 +72,8 @@ for file in files:
     if os.path.isdir(file):
         directories.append(file)
 
-directories.remove('drafts')
+if 'drafts' in directories:
+    directories.remove('drafts')
 
 for directory in directories:
     readme.write("* [" + directory.capitalize() + "](#" + directory + ")\n")
