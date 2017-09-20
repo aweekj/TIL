@@ -4,10 +4,10 @@
 
 ### Creational Patterns
 
-- [ ] Abstract Factory
+- [x] [Abstract Factory](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/abstract_factory.md)
 - [ ] Borg
 - [ ] Builder
-- [ ] Factory Method
+- [x] [Factory](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/factory.md)
 - [ ] Lazy Evolution
 - [ ] Pool
 - [ ] Prototype
@@ -15,11 +15,11 @@
 ### Structural Patterns 
 
 - [ ] 3 Tier
-- [X] [Adapter](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/adapter.md)
+- [x] [Adapter](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/adapter.md)
 - [ ] Bridge
 - [ ] Composite
-- [X] [Decorator](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/decorator.md)
-- [X] [Delegation](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/delegation.md)
+- [x] [Decorator](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/decorator.md)
+- [x] [Delegation](https://github.com/AWEEKJ/TIL/blob/master/design-patterns/delegation.md)
 - [ ] Facade
 - [ ] Flyweight
 - [ ] Front Controller
