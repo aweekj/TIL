@@ -34,9 +34,11 @@
 * [Postgresql On Ubuntu.md](database/postgresql-on-ubuntu.md)
 
 ## Design-patterns
+* [Abstract Factory.md](design-patterns/abstract-factory.md)
 * [Adapter.md](design-patterns/adapter.md)
 * [Decorator.md](design-patterns/decorator.md)
 * [Delegation.md](design-patterns/delegation.md)
+* [Factory.md](design-patterns/factory.md)
 * [Readme.md](design-patterns/README.md)
 
 ## Django
@@ -69,6 +71,7 @@
 * [Python React Setup.md](python/python-react-setup.md)
 * [Python Tips.md](python/python-tips.md)
 * [Python Virtualenv.md](python/python-virtualenv.md)
+* [Transforming Code Into Beautiful Idiomatic Python.md](python/transforming-code-into-beautiful-idiomatic-python.md)
 
 ## Reactjs
 * [Reactjs Setup.md](reactjs/reactjs-setup.md)
