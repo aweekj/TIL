@@ -1,0 +1,52 @@
+# Summary
+
+### Categories
+
+-   Data Visualization
+    -   [D3 Tutorial](data-visualization/d3.js-tutorial.md)
+-   Database
+    -   [Mongodb Setup](database/mongodb-setup.md)
+    -   [Postgresql On Ubuntu](database/postgresql-on-ubuntu.md)
+-   Design Patterns
+    -   [Abstract Factory](design-patterns/abstract-factory.md)
+    -   [Adapter](design-patterns/adapter.md)
+    -   [Decorator](design-patterns/decorator.md)
+    -   [Delegation](design-patterns/delegation.md)
+    -   [Factory](design-patterns/factory.md)
+-   Django
+    -   [Deploying Django Project On Ubuntu Using Nginx And Gunicorn](django/deploying-django-project-on-ubuntu-using-nginx-and-gunicorn.md)
+    -   [Django Bluebook](django/django-bluebook.md)
+    -   [Django Setup](django/django-setup.md)
+    -   [Django With Postgresql On Aws Ec2](django/django-with-postgresql-on-aws-ec2.md)
+    -   [Test Driven Development With Python](django/test-driven-development-with-python.md)
+-   Docker
+    -   [About Docker](docker/about-docker.md)
+    -   [Docker Cheatsheet](docker/docker-cheatsheet.md)
+    -   [Docker For Jekyll](docker/docker-for-jekyll.md)
+    -   [Gollum Via Docker](docker/gollum-via-docker.md)
+-   Git
+    -   [Git Cheat Sheet](git/git-cheat-sheet.md)
+    -   [Steps After Fork](git/steps-after-fork.md)
+-   Jekyll
+    -   [Add Disqus To Jekyll](jekyll/add-disqus-to-jekyll.md)
+    -   [Jekyll With Google Analytics](jekyll/jekyll-with-google-analytics.md)
+-   Machine Learning
+    -   [Ml Study Notes](ml/ml-study-notes.md)
+-   Python
+    -   [Effective Python](python/effective-python.md)
+    -   [Fundamental Python](python/fundamental-python.md)
+    -   [Python React Setup](python/python-react-setup.md)
+    -   [Python Tips](python/python-tips.md)
+    -   [Python Virtualenv](python/python-virtualenv.md)
+    -   [Transforming Code Into Beautiful Idiomatic Python](python/transforming-code-into-beautiful-idiomatic-python.md)
+-   React.js
+    -   [Reactjs Setup](reactjs/reactjs-setup.md)
+-   Snippets
+    -   [C++](snippets/c++.md)
+-   Uncategorized
+    -   [Dotfiles](uncategorized/dotfiles.md)
+-   Vim
+    -   [Plugin Manager Vim Plug](vim/plugin-manager-vim-plug.md)
+    -   [Plugin Manager Vundle](vim/plugin-manager-vundle.md)
+    -   [Plugin Youcompleteme](vim/plugin-youcompleteme.md)
+
