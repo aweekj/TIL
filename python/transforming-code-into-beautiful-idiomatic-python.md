@@ -274,7 +274,7 @@ d = ChainMap(command_line_args, os.environ, defaults)
 -   Positional arguments and indices are nice
 -   Keywords and names are better
 -   The first way is convenient for the computer
--   The second corresponds to how human's think
+-   The second corresponds to how humans think
 
 ### Clarify function calls with keyword arguments
 
@@ -329,7 +329,7 @@ def fibonacci(n):
 
 ## Tuple packing and unpacking
 
--   Don't under-estimate the advantages of updating state variables at the same time
+-   Don't underestimate the advantages of updating state variables at the same time
 -   It eliminates an entire class of errors due to out-of-order updates
 -   It allows high level thinking: "chunking"
 
@@ -387,7 +387,7 @@ names.insert(0, 'mark')
 from collections import deque
 
 names = deque(['raymond', 'rachel', 'matthew', 'roger', 
-         'betty', 'melissa', 'judith', 'charlie'])
+               'betty', 'melissa', 'judith', 'charlie'])
 del names[0]
 names.popleft()
 names.appendleft('mark')
@@ -517,7 +517,6 @@ def redirect_stdout(fileobj):
 with open('help.txt', 'w') as f:
     with redirect_stdout(f):
         help(pow)
-    
 ```
 
 ## Concise Expressive One-Liners
@@ -540,4 +539,3 @@ print(sum(result))
 # Pythonic-way
 print(sum(i**2 for i in range(10)))
 ```
-
