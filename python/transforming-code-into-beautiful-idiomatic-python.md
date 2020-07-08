@@ -1,6 +1,6 @@
 # Transforming Code into Beautiful, Idiomatic Python
 
--   Speaker: Raymond Hettinger(@raymondh), who is Python core developer
+-   Speaker: Raymond Hettinger(@raymondh), who is a Python core developer
 -   Lecture on Youtube: [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go&t=503s)
 
 
@@ -16,7 +16,7 @@
 ```python
 for i in [0, 1, 2, 3, 4, 5]:
     print(i**2)
-  
+
 # Pythonic-way
 for i in range(6):
     print(i**2)
@@ -30,7 +30,7 @@ colors = ['red', 'green', 'blue', 'yellow']
 
 for i in range(len(colors)):
     print(colors[i])
-  
+
 # Pythonic-way
 for color in colors:
     print(color)
@@ -43,23 +43,23 @@ colors = ['red', 'green', 'blue', 'yellow']
 
 for i in range(len(colors)-1, -1, -1):
     print(colors[i])
-  
+
 # Pythonic-way
 for color in reversed(colors):
     print(color)
 ```
 
-### Looping over a collection and indicies
+### Looping over a collection and indices
 
 ```python
 colors = ['red', 'green', 'blue', 'yellow']
 
 for i in range(len(colors)):
     print(i, '-->', colors[i])
-  
+
 # Pythonic-way
 for i, color in enumerate(colors):
-    print(i, '-->', colors)
+    print(i, '-->', color)
 ```
 
 ### Looping over two collections
@@ -71,7 +71,7 @@ colors = ['red', 'green', 'blue', 'yellow']
 n = min(len(names), len(colors))
 for i in range(n):
     print(names[i], '-->', colors[i])
-  
+
 # Pythonic-way
 for name, color in zip(names, colors):
     print(name, '-->', color)
@@ -271,10 +271,10 @@ d = ChainMap(command_line_args, os.environ, defaults)
 
 ## Improving Clarity
 
--   Positional arguments and indicies are nice
+-   Positional arguments and indices are nice
 -   Keywords and names are better
 -   The first way is convenient for the computer
--   The second corresponds to how human's think
+-   The second corresponds to how humans think
 
 ### Clarify function calls with keyword arguments
 
@@ -329,7 +329,7 @@ def fibonacci(n):
 
 ## Tuple packing and unpacking
 
--   Don't under-estimate the advantages of updating state variables at the same time
+-   Don't underestimate the advantages of updating state variables at the same time
 -   It eliminates an entire class of errors due to out-of-order updates
 -   It allows high level thinking: "chunking"
 
@@ -387,7 +387,7 @@ names.insert(0, 'mark')
 from collections import deque
 
 names = deque(['raymond', 'rachel', 'matthew', 'roger', 
-         'betty', 'melissa', 'judith', 'charlie'])
+               'betty', 'melissa', 'judith', 'charlie'])
 del names[0]
 names.popleft()
 names.appendleft('mark')
@@ -517,7 +517,6 @@ def redirect_stdout(fileobj):
 with open('help.txt', 'w') as f:
     with redirect_stdout(f):
         help(pow)
-    
 ```
 
 ## Concise Expressive One-Liners
@@ -528,7 +527,7 @@ with open('help.txt', 'w') as f:
 -   Raymond's rule:
     -   One logical line of code equals one sentence in English
 
-### List Comprehensions and Generator Exprssions
+### List Comprehensions and Generator Expressions
 
 ```python
 result = []
@@ -538,6 +537,5 @@ for i in range(10):
 print(sum(result))
 
 # Pythonic-way
-result = sum(i**2 for i in range(10))
+print(sum(i**2 for i in range(10)))
 ```
-
